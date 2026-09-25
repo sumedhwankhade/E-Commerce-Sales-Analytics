@@ -1,171 +1,172 @@
-# 📊 Sales Dashboard & E-Commerce Sales Analytics
+# 📊 E-Commerce Sales Analytics & Dashboard
 
 ## 📌 Project Overview
 
-This project is an end-to-end **Sales Analytics Dashboard** designed to analyze sales performance, profitability, product/category trends, customer behavior, and geographical performance.
+This project is an **E-Commerce Sales Analytics Dashboard** created to analyze sales performance, profitability, customer contribution, product/category performance, and regional sales trends.
 
-The project uses a consolidated sales dataset and presents the analysis through an interactive dashboard. It is designed to demonstrate practical **Data Analyst skills**, including data analysis, KPI reporting, business insights, and dashboard development.
+The project uses a consolidated sales dataset and an interactive Excel dashboard to convert raw business data into meaningful KPIs and visual insights.
 
 ---
 
 ## 🎯 Business Objective
 
-The main objective of this project is to answer key business questions such as:
+The objective of this project is to answer important business questions such as:
 
-- How are sales and profit performing?
-- Which products and categories generate the most revenue?
+- How are sales and profit performing over time?
+- Which categories and products contribute the most to sales?
+- Which customers generate the highest profit?
 - Which states contribute the most to sales?
-- Who are the top customers?
-- How does sales performance change over time?
-- Which areas require further business attention?
+- How does customer count change by year?
+- What are the monthly sales trends?
+- Which areas may require further business attention?
 
 ---
 
-## 📁 Dataset
+## 🗂️ Dataset
 
-The project is based on a single consolidated Excel dataset.
+The project is based on a consolidated sales dataset containing information related to:
+
+- Customers
+- Products
+- Categories
+- Sub-Categories
+- Sales
+- Profit
+- Quantity
+- States
+- Dates / Years
 
 ### Dataset Summary
 
 | Metric | Value |
 |---|---:|
 | Total Records | 10,000 |
-| Total Sales | $20,887,014.56 |
-| Total Profit | $3,542,305.05 |
+| Total Sales | $20.89M |
+| Total Profit | $3.54M |
 | Total Quantity | 39,735 |
 | Unique Customers | 1,200 |
 | States Covered | 50 |
-
-> The values above are calculated from the uploaded `Sales Dashboard.xlsx` workbook.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-- **Microsoft Excel** – Data analysis and dashboard development
-- **Excel Pivot Tables / Charts** – Business analysis and visualization
-- **Data Cleaning & Transformation** – Preparing data for analysis
-- **GitHub** – Project documentation and portfolio presentation
+- **Microsoft Excel**
+- **Pivot Tables**
+- **Pivot Charts**
+- **Excel Slicers**
+- **Data Analysis**
+- **Data Visualization**
+- **KPI Reporting**
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
+## 📊 Dashboard Features
 
-The dashboard focuses on the following KPIs:
+The interactive dashboard provides analysis for:
 
-- **Total Sales**
-- **Total Profit**
-- **Total Quantity**
-- **Customer Count**
-- **Sales by Category**
-- **Sales by Sub-Category**
-- **Sales by State**
-- **Monthly Sales Trend**
-- **Top Customers**
-- **Top Products**
+### Sales Analysis
+- Sales by Category / Product
+- Monthly Sales Trends
+- Sales by State
+
+### Profit Analysis
+- Profit performance over time
+- Profit contribution by category
+- Top customers by profit
+
+### Customer Analysis
+- Customer count by year
+- Top 5 customers by profit
+
+### Geographic Analysis
+- State-wise sales performance using a map visualization
+
+### Interactive Filters
+- Category filter
+- Year filter
+
+---
+
+## 📈 Dashboard Preview
+
+![Sales Dashboard](Dashboard.png)
 
 ---
 
 ## 🔍 Analysis Performed
 
-### 1. Sales Performance Analysis
-Analyzed overall sales and identified sales trends over time.
+### 1. Category & Product Analysis
+Analyzed sales contribution across categories and products to identify high-performing segments.
 
-### 2. Profitability Analysis
-Examined profit performance and compared profitability across different business segments.
+### 2. Time-Series Analysis
+Analyzed monthly sales and yearly profit trends to understand changes in business performance over time.
 
-### 3. Product Analysis
-Identified high-performing products and analyzed product-level contribution to sales.
+### 3. Customer Analysis
+Identified customers contributing significantly to overall profitability.
 
-### 4. Category & Sub-Category Analysis
-Compared sales performance across categories and sub-categories.
+### 4. Regional Analysis
+Used state-level sales analysis and map visualization to understand geographical performance.
 
-### 5. Customer Analysis
-Analyzed customer contribution and identified high-value customers.
-
-### 6. Geographical Analysis
-Compared sales performance across states to identify strong and weak geographical markets.
-
-### 7. Time-Series Analysis
-Analyzed monthly sales trends to understand changes in business performance over time.
-
----
-
-## 📈 Dashboard
-
-The Excel workbook contains an interactive **Sales Dashboard** with visualizations for:
-
-- Sales KPIs
-- Profit KPIs
-- Quantity
-- Customer metrics
-- Monthly sales trends
-- Category performance
-- State-wise performance
-- Top customers
-- Product performance
-
-### Dashboard Preview
-
-> Add a screenshot of your dashboard here after uploading the image to GitHub.
-
-Example:
-
-`![Sales Dashboard](Dashboard.png)`
+### 5. KPI Analysis
+Created a centralized dashboard to monitor key business metrics.
 
 ---
 
 ## 💡 Business Insights
 
-The analysis helps identify:
+The dashboard helps identify:
 
 - High-performing products and categories
-- Major contributors to overall revenue
+- Major contributors to revenue and profit
 - High-value customers
-- Geographical sales patterns
-- Monthly sales trends
-- Areas where business performance can be improved
+- State-wise sales patterns
+- Monthly sales fluctuations
+- Year-wise customer trends
+- Areas that may require additional business analysis
 
-These insights can support business teams in making data-driven decisions related to **sales strategy, product performance, customer management, and regional growth**.
+These insights can support data-driven decisions related to sales planning, customer management, product strategy, and regional performance.
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-Sales-Dashboard/
+E-Commerce-Sales-Analytics/
 │
-├── Sales Dashboard.xlsx
 ├── README.md
-└── dashboard.png
+├── E-Commerce-Sales-Dashboard.xlsx
+└── Dashboard.png
 ```
 
 ---
 
 ## 🚀 How to Use
 
-1. Download or clone this repository.
-2. Open `Sales Dashboard.xlsx`.
-3. Go to the **Dashboard** sheet.
-4. Explore the KPIs and visualizations.
-5. Use the underlying dataset sheets to review the detailed analysis.
+1. Download `E-Commerce-Sales-Dashboard.xlsx`.
+2. Open the workbook in Microsoft Excel.
+3. Navigate to the **Dashboard** sheet.
+4. Use the **Category** and **Year** slicers to filter the analysis.
+5. Explore the charts, KPIs, and geographical visualizations.
 
 ---
 
 ## 🎓 Skills Demonstrated
 
-This project demonstrates practical skills in:
-
-- Data Analysis
 - Excel
+- Data Analysis
+- Data Cleaning
+- Pivot Tables
+- Pivot Charts
+- Dashboard Development
 - KPI Development
 - Business Intelligence
 - Data Visualization
 - Sales Analytics
 - Customer Analytics
 - Trend Analysis
-- Business Reporting
-- Dashboard Development
+- Statistics
+- Machine Learning
 
 ---
 
@@ -173,7 +174,7 @@ This project demonstrates practical skills in:
 
 **Sumedh Wankhade**
 
-Aspiring Data Analyst
+**Aspiring Data Analyst**
 
 **Skills:** Excel | SQL | Python | Power BI | Statistics | Machine Learning
 
@@ -181,4 +182,4 @@ Aspiring Data Analyst
 
 ## ⭐ Project Purpose
 
-This project was created as part of a **Data Analyst portfolio** to demonstrate the ability to transform raw business data into meaningful analysis, KPIs, visualizations, and actionable business insights.
+This project is part of a **Data Analyst portfolio** and demonstrates the ability to analyze business data, build KPIs, create interactive dashboards, and communicate insights through data visualization.
