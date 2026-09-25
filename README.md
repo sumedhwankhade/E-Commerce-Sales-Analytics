@@ -111,7 +111,7 @@ The Excel workbook contains an interactive **Sales Dashboard** with visualizatio
 
 Example:
 
-`![Sales Dashboard](dashboard.png)`
+`![Sales Dashboard](Dashboard.png)`
 
 ---
 
