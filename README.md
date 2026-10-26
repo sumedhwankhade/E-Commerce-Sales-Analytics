@@ -176,7 +176,7 @@ E-Commerce-Sales-Analytics/
 
 **Aspiring Data Analyst**
 
-**Skills:** Excel | SQL | Python | Power BI | Statistics | Machine Learning
+**Skills:** Excel | SQL | Python | Power BI 
 
 ---
 
